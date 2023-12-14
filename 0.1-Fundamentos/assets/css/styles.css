@@ -1,0 +1,22 @@
+h1{
+    color: transparent;
+    background: linear-gradient(to right, rgb(4, 63, 213) 0%, rgb(247, 3, 251) 100%);
+    background-clip: text;
+    font-size: 5rem;
+}
+
+button{
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(4, 63, 213) 0%, rgb(247, 3, 251) 100%);
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px #9d1394,
+                0px 0px 15px #9d1394,
+                0px 0px 15px #9d1394;
+    
+}
